@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 68, 97);  
+}
+main, footer{
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    box-shadow: -6px 11px 11px 3px rgba(0, 0, 0, 0.233);
+    
+}
+#titulo{
+    padding: 10px;
+}
+h1, h2, h3, p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+pre, code, div, div > #eventos, div> #fade, div > .mens {
+    background-color: white;
+    
+    
+}
+pre{
+    text-align:left
+}
+button, div>img{
+    
+    background-color: rgb(40, 129, 40);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+}
+
+#div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-top: 10px;
+    
+   
+}
+
+div#ultima {
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
